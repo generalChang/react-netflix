@@ -1,0 +1,33 @@
+.search-container {
+  background-color: black;
+  width: 100%;
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.no-results {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #c5c5c5;
+}
+
+.movie {
+  flex: 1 1 auto;
+  display: inline-block;
+  padding-right: 0.5rem;
+  padding-bottom: 7rem;
+}
+
+.movie_column_poster {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.movie_column_poster:hover {
+  transform: scale(1.25);
+}
+
+.movie_poster {
+  width: 90%;
+  border-radius: 5px;
+}
